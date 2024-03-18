@@ -4,6 +4,13 @@
 
 using namespace std; 
 
+void add();
+void push(char val);
+char pop();
+void peek();
+void enqueue(char val);
+void dequeue();
+
 int main()
 {
     node* first = NULL;
@@ -109,4 +116,3 @@ void dequeue() {
             delete temp;
         }
     }
-    

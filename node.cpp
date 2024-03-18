@@ -1,24 +1,10 @@
 #include <iostream>
 #include <cstring>
+#include "node.h"
 
 using namespace std; 
 
-class node {
-    public: 
-    char data[]; 
-    node* nextNode; 
-    node(char value) {
-     nextNode = nullptr;    
-     data = value;    
-    }
-    
-    
-    
-};
-
-
-    
-    
-    
-    
-    
+node::node(char value) {
+    nextNode = nullptr;    
+    data = value;    
+}
