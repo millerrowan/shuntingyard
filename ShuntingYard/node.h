@@ -7,9 +7,9 @@ using namespace std;
 
 class node {
     public: 
-    char data[]; 
+    char data; 
     node* nextNode; 
-    node();   
+    node(char val);   
 };
 
 #endif
